@@ -199,16 +199,14 @@ footer a:hover {
 
   footer {
     padding: 25px;
-    text-align: center;
+    text
   }
 
-  footer ul li {
+  footer ul {
     list-style-type: none;
   }
 
-  footer h4 {
-    border-bottom: none;
-  }
+  footer 
 
 
 }

@@ -193,21 +193,7 @@ footer a:hover {
   main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    row-gap: 50px;
-    column-gap: 0px;
-  }
-
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  footer ul li {
-    list-style-type: none;
-  }
-
-  footer h4 {
-    border-bottom: none;
+    
   }
 
 

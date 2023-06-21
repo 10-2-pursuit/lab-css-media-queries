@@ -197,18 +197,7 @@ footer a:hover {
     column-gap: 0px;
   }
 
-  footer {
-    padding: 25px;
-    text-align: center;
-  }
-
-  footer ul li {
-    list-style-type: none;
-  }
-
-  footer h4 {
-    border-bottom: none;
-  }
+  footer 
 
 
 }
