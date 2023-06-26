@@ -72,7 +72,7 @@ nav a:hover {
 */
 
 .splash {
-  display: none;
+  display: center;
   background-image: url("./images/ales-nesetril-unsplash.jpg");
   background-position: 50% 50%;
   background-size: 100%;
@@ -164,3 +164,50 @@ footer a:hover {
 }
 
 /* Media queries */
+
+@media (min-width: 768px) and (min-width:1279px) {
+  .splash {
+     display: none;
+    }
+
+  main {
+    width: 90%;
+  }
+
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .splash {
+    display: none;
+   }
+
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 50px 0;
+    column-gap: 100;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  footer ul {
+    list-style: none;
+  }
+
+  footer h4 {
+    border: none;
+  }
+}
+
