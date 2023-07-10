@@ -4,7 +4,6 @@
 */
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
-/* General styles */
 
 html,
 body {
@@ -28,7 +27,6 @@ h6 {
   letter-spacing: 2px;
 }
 
-/* Header */
 
 header {
   background: #040f16;
@@ -66,10 +64,7 @@ nav a:hover {
   color: #de6b48;
 }
 
-/*
-  Splash
-  Images from Unsplash: https://unsplash.com/
-*/
+
 
 .splash {
   background-image: url("./images/ales-nesetril-unsplash.jpg");
@@ -86,7 +81,6 @@ nav a:hover {
   text-align: center;
 }
 
-/* Main */
 
 main {
   margin: 3rem auto;
@@ -98,7 +92,6 @@ main {
   gap: 1rem 3rem;
 }
 
-/* Articles */
 
 article {
   line-height: 1.5rem;
@@ -125,7 +118,6 @@ aside a:hover {
   color: #de6b48;
 }
 
-/* Footer */
 
 footer {
   background: #040f16;
@@ -162,7 +154,6 @@ footer a:hover {
   color: #ececec;
 }
 
-/* Media queries */
 @media (min-width: 768px) and (max-width: 1279px) {
   .splash {
     display: none;
